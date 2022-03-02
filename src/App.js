@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Demo calculator
+          Demo calculator - by Miguel
         </p>
 
 	  <Addition />
