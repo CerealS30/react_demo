@@ -3,6 +3,7 @@ import './App.css';
 import Addition from './components/addition/Addition.js';
 import Subs from './components/subs/Subs.js';
 import Mul from './components/mul/Mul.js';
+import Div from './components/div/Div.js';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 	  <Addition />
 	  <Subs />
 	  <Mul />
+	  <Div />
 
         <a
           className="App-link"
