@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Addition from './components/addition/Addition.js';
 import Subs from './components/subs/Subs.js';
+import Mul from './components/mul/Mul.js';
 
 function App() {
   return (
@@ -9,11 +10,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Demo calculator
+          Demo calculator - by Miguel
         </p>
 
 	  <Addition />
 	  <Subs />
+	  <Mul />
 
         <a
           className="App-link"
