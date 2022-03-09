@@ -10,6 +10,7 @@ function App() {
         <p>
           Demo calculator - by Miguel
         </p>
+	  <a class="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">Learn React</a>
 	  <Div/>
       </header>
     </div>
