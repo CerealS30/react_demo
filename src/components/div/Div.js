@@ -1,6 +1,14 @@
 export default function Div(){
-
-return <h1> (/) </h1>;
-
+return(
+    <>
+        <div>
+            <button onClick={clickMe}>Button</button>
+        </div>
+    </>
+);
 }
+
+function clickMe(){
+    alert("You clicked me");
+  }
 
