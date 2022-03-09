@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import Addition from './components/addition/Addition.js';
+import Subs from './components/subs/Subs.js';
+import Mul from './components/mul/Mul.js';
+import Div from './components/div/Div.js';
 
 function App() {
   return (
@@ -7,8 +11,14 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Demo calculator - by Miguel
         </p>
+
+	  <Addition />
+	  <Subs />
+	  <Mul />
+	  <Div />
+
         <a
           className="App-link"
           href="https://reactjs.org"
