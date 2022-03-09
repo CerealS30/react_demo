@@ -28,8 +28,8 @@ function App() {
     <Ln />
 	  <Exponent />
 	  <Log />
-	<Cos />
-	<Tan />
+	  <Cos />
+	  <Tan />
 
         <a
           className="App-link"
