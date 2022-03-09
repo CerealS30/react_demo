@@ -5,7 +5,7 @@ import Subs from './components/subs/Subs.js';
 import Mul from './components/mul/Mul.js';
 import Div from './components/div/Div.js';
 import Sin from './components/sin/Sin.js';
-import Cos from './components/cos/Cos.js';
+import Cos from './components/cos/cos.js';
 import Ln from './components/ln/Ln.js';
 import Exponent from './components/exponent/Exponent.js';
 import Log from './components/log/Log.js';
