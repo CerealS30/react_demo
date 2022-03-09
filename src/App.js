@@ -5,6 +5,7 @@ import Subs from './components/subs/Subs.js';
 import Mul from './components/mul/Mul.js';
 import Div from './components/div/Div.js';
 import Exponent from './components/exponent/Exponent.js';
+import Log from './components/log/Log.js';
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
 	  <Mul />
 	  <Div />
 	  <Exponent />
+	  <Log />
 
         <a
           className="App-link"
