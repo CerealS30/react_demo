@@ -4,6 +4,7 @@ import Addition from './components/addition/Addition.js';
 import Subs from './components/subs/Subs.js';
 import Mul from './components/mul/Mul.js';
 import Div from './components/div/Div.js';
+import Sin from './components/sin/Sin.js';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
 	  <Subs />
 	  <Mul />
 	  <Div />
+    <Sin />
 
         <a
           className="App-link"
